@@ -1,0 +1,33 @@
+#banner {
+    background: url(/img/banner.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 580px;
+    position: relative;
+}
+.bg-color{ /* Modificare trasparenza con l'ultimo valore di RGBA ( a sta per alpha ed indica la trasparenza) */
+	background-color: RGBA(13, 70, 83, 0.35);
+	height: 580px;
+}
+.banner-info{
+	padding-top: 190px;
+}
+.banner-logo img{
+	display: inline-block;
+}
+.banner-text{
+	color: #fff;
+}
+.banner-text h1{
+	font-family: 'Candal', sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-bottom:15px;
+}
+
+.section-padding{
+	padding: 60px 0px;
+
+}
+.section{
+	min-height: 500px;
+}
